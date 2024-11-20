@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ludrakwr6k",
+  "leftColumn": 10,
+  "minWidth": 120,
+  "mobileBottomRow": 61,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 57,
+  "needsErrorInfo": false,
+  "onClick": "{{JSObject1.setDefaultTab('SignUp');}}",
+  "originalBottomRow": 60,
+  "originalTopRow": 56,
+  "parentColumnSpace": 6.53125,
+  "parentId": "8apqh4gfvc",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 54,
+  "text": "Đăng Ký",
+  "topRow": 56,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "vezk55ie8b",
+  "widgetName": "btn_signUp"
+}

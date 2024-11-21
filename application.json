@@ -21,19 +21,11 @@
   "icon": "help",
   "pages": [
     {
-      "id": "Authentication",
-      "isDefault": false
-    },
-    {
       "id": "Homepage",
       "isDefault": true
     },
     {
       "id": "Authentic",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
       "isDefault": false
     }
   ],

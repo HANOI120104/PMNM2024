@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "673db2ac5da0e520cba534fc_6ffab957-2ac0-4f65-93a2-bf532edb9fd5",
+  "id": "Homepage_functions",
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "Homepage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultTab",
+        "value": "'Trang Chủ'"
+      }
+    ]
+  }
+}

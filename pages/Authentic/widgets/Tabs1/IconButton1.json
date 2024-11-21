@@ -30,7 +30,7 @@
   "mobileRightColumn": 6,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{JSObject1.setDefaultTab('SignIn');}}",
+  "onClick": "{{functions.setDefaultTab('Welcome');}}",
   "parentColumnSpace": 6.53125,
   "parentId": "i3zwwn0vb5",
   "parentRowSpace": 10,

@@ -58,52 +58,6 @@
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
       "bottomRow": 800,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": true,
-      "detachFromLayout": true,
-      "dynamicBindingPathList": [
-        {
-          "key": "borderRadius"
-        },
-        {
-          "key": "boxShadow"
-        }
-      ],
-      "dynamicHeight": "AUTO_HEIGHT",
-      "dynamicTriggerPathList": [],
-      "flexLayers": [],
-      "isDisabled": false,
-      "isLoading": false,
-      "isVisible": true,
-      "key": "eqy0vpawut",
-      "leftColumn": 0,
-      "maxDynamicHeight": 9000,
-      "minDynamicHeight": 4,
-      "minHeight": 150,
-      "minWidth": 450,
-      "mobileBottomRow": 150,
-      "mobileLeftColumn": 0,
-      "mobileRightColumn": 164.25,
-      "mobileTopRow": 0,
-      "needsErrorInfo": false,
-      "parentColumnSpace": 1,
-      "parentId": "plppahs2c3",
-      "parentRowSpace": 1,
-      "renderMode": "CANVAS",
-      "responsiveBehavior": "fill",
-      "rightColumn": 164.25,
-      "shouldScrollContents": false,
-      "tabId": "tab2",
-      "tabName": "SignIn",
-      "topRow": 0,
-      "type": "CANVAS_WIDGET",
-      "version": 1,
-      "widgetId": "cxzd8fw31q",
-      "widgetName": "Canvas2"
-    },
-    {
-      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 800,
-      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -281,13 +235,16 @@
       "widgetName": "Canvas6"
     }
   ],
-  "defaultTab": "Welcome",
+  "defaultTab": "{{functions.defaultTab}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "defaultTab"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -326,38 +283,29 @@
     },
     "tab1dph1rpid4": {
       "id": "tab1dph1rpid4",
-      "index": 3,
+      "index": 2,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "SignUp",
       "widgetId": "wy07b7p99r"
     },
-    "tab2": {
-      "id": "tab2",
-      "index": 1,
-      "isDuplicateLabel": false,
-      "isVisible": true,
-      "label": "SignIn",
-      "positioning": "vertical",
-      "widgetId": "cxzd8fw31q"
-    },
     "tab3qqmyu1zmh": {
       "id": "tab3qqmyu1zmh",
-      "index": 5,
+      "index": 4,
       "isVisible": true,
       "label": "RegisterFormContinue",
       "widgetId": "u97buod6ci"
     },
     "tab6f5a54b6ue": {
       "id": "tab6f5a54b6ue",
-      "index": 4,
+      "index": 3,
       "isVisible": true,
       "label": "RegisterForm",
       "widgetId": "67zlxyvy2h"
     },
     "tabrjabv02ari": {
       "id": "tabrjabv02ari",
-      "index": 2,
+      "index": 1,
       "isDuplicateLabel": false,
       "isVisible": true,
       "label": "LoginForm",

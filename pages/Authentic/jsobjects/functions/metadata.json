@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "673db2ac5da0e520cba534fc_4cf0cb6d-da01-4e4d-bbc3-8cfc777ca236",
+  "id": "Authentic_functions",
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "Authentic",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultTab",
+        "value": "'Welcome'"
+      }
+    ]
+  }
+}

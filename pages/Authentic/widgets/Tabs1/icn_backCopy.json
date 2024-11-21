@@ -10,7 +10,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "arrow-left",
   "isDisabled": false,
   "isLoading": false,
@@ -23,6 +27,7 @@
   "mobileRightColumn": 4,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onClick": "{{functions.setDefaultTab('Welcome');}}",
   "parentColumnSpace": 6.53125,
   "parentId": "wy07b7p99r",
   "parentRowSpace": 10,

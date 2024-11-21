@@ -13,7 +13,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "arrow-left",
   "isDisabled": false,
   "isLoading": false,
@@ -26,6 +30,7 @@
   "mobileRightColumn": 4,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onClick": "{{functions.setDefaultTab('SignUp');}}",
   "parentColumnSpace": 6.53125,
   "parentId": "67zlxyvy2h",
   "parentRowSpace": 10,

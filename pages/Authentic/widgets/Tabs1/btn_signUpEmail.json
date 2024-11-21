@@ -28,7 +28,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "onClick": "{{JSObject1.setDefaultTab('RegisterForm');}}",
+  "onClick": "{{functions.setDefaultTab('RegisterForm');}}",
   "originalBottomRow": 26,
   "originalTopRow": 22,
   "parentColumnSpace": 6.53125,

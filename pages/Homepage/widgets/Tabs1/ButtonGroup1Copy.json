@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 90,
+  "borderRadius": "1.5rem",
+  "bottomRow": 97,
   "boxShadow": "none",
   "buttonVariant": "PRIMARY",
   "childStylesheet": {
@@ -10,9 +10,6 @@
     }
   },
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "groupButtons.groupButtonipk7zlihjp.buttonColor"
     },
@@ -23,7 +20,14 @@
       "key": "groupButtons.groupButtoneuzmbxb4qs.buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButtonipk7zlihjp.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonhfsdh7ltfx.onClick"
+    }
+  ],
   "groupButtons": {
     "groupButtoneuzmbxb4qs": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -53,6 +57,7 @@
       "itemType": "BUTTON",
       "label": "Tài khoản",
       "menuItems": {},
+      "onClick": "{{functions.setDefaultTab('Tài Khoản');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "91qj00zhxr"
@@ -69,6 +74,7 @@
       "itemType": "BUTTON",
       "label": "Home",
       "menuItems": {},
+      "onClick": "{{functions.setDefaultTab('Trang Chủ');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "876ok9w3nr"
@@ -86,17 +92,17 @@
   "mobileTopRow": 70,
   "needsErrorInfo": false,
   "orientation": "horizontal",
-  "originalBottomRow": 90,
-  "originalTopRow": 86,
+  "originalBottomRow": 97,
+  "originalTopRow": 93,
   "parentColumnSpace": 6.53125,
   "parentId": "bpy96nrch9",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "topRow": 86,
+  "topRow": 93,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "7kv3baeqxk",
+  "widgetId": "a47nkytord",
   "widgetName": "ButtonGroup1Copy"
 }

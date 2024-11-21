@@ -22,11 +22,11 @@
   "pages": [
     {
       "id": "Homepage",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Authentic",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
